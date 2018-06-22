@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 5e6fa329bd99b4777bd0cee574eb2140
+  productGUID: 81423941058fa49cbad91a596bae7f67
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: new 1 - minimap
+  productName: minmap 5 - minimal
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -542,10 +542,11 @@ PlayerSettings:
   webGLCompressionFormat: 1
   webGLLinkerTarget: 0
   scriptingDefineSymbols:
-    1: UNITY_POST_PROCESSING_STACK_V2
-    4: UNITY_POST_PROCESSING_STACK_V2
-    7: UNITY_POST_PROCESSING_STACK_V2
+    1: UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT
+    4: UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT;MOBILE_INPUT
+    7: UNITY_POST_PROCESSING_STACK_V2;CROSS_PLATFORM_INPUT;MOBILE_INPUT
     13: UNITY_POST_PROCESSING_STACK_V2
+    14: MOBILE_INPUT
     17: UNITY_POST_PROCESSING_STACK_V2
     18: UNITY_POST_PROCESSING_STACK_V2
     19: UNITY_POST_PROCESSING_STACK_V2
